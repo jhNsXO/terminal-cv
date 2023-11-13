@@ -1,32 +1,32 @@
 body {
-  background-color: #000;
+  background-color: #002b36;
 }
 
 #console {
   font-family: courier, monospace;
-  color: #fff;
+  color: #839496;
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 14px;
 }
 
 a {
-  color: #0bc;
+  color: #268bd2;
   text-decoration: none;
 }
 
 #a {
-  color: #0f0;
+  color: #2aa198;
 }
 
 #c {
-  color: #0bc;
+  color: #268bd2;
 }
 
 #b {
-  color: #ff0096;
+  color: #839496;
 }
 
 #k {
@@ -34,17 +34,17 @@ a {
 }
 
 #op {
-  color: #888888;
+  color: #839496;
 }
 
 @keyframes change {
   0% {
-    color: #0f0;
+    color: #2aa198;
   }
   50% {
-    color: #0f0;
+    color: #2aa198;
   }
   99% {
-    color: black;
+    color: #002b36;
   }
 }
