@@ -99,8 +99,8 @@ Typer.speed = 3;
 Typer.file = "jhns.html";
 Typer.init();
 
-var timer = setInterval("t();", 30);
-function t() {
+var timer = setInterval("ti();", 30);
+function ti() {
   Typer.addText({ keyCode: 123748 });
 
   if (Typer.index > Typer.text.length) {
