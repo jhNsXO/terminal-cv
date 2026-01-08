@@ -85,7 +85,7 @@ var Typer = {
 
 function replaceUrls(text) {
   var http = text.indexOf("http://");
-  var space = text.indexOf(".me ", http);
+  var space = text.indexOf(".uk ", http);
 
   if (space != -1) {
     var url = text.slice(http, space - 1);
