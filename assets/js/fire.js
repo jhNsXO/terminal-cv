@@ -226,7 +226,7 @@ function smoothstep(e, t, o) {
     return n * n * (3 - 2 * n);
 }
 
-let programValues = { value01: 12 },
+let programValues = { value01: 16 },
     animationOff = !1;
 const settings$1 = {},
     { min: e, max: t, sin: o, floor: n } = Math;
@@ -302,7 +302,7 @@ let fpsValue = 12;
 const settings = {
     element: document.querySelector("#ASCII-Holder"),
     backgroundColor: "transparent",
-    color: "#073642",
+    color: "#1b7286",
     fps: fpsValue,
 };
 run(program, settings).catch(function (e) {
